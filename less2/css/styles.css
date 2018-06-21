@@ -1,0 +1,55 @@
+.wrapper{
+	padding: 15px;
+	max-width: 900px;
+	margin: 0 auto;
+}
+.panel-block, panel-heading {
+	transition: all 0.5s;
+}
+.list-move {
+	transition: transform 0.5s;
+}
+.list-leave-to {
+	opacity: 0;
+	transform: translateX(100px);
+}
+.icon{
+	background: #41d64b;
+	color: white;
+	padding: 5px;
+}
+form{
+	width: 50%;
+	margin: 0 auto;
+	border: 1px solid  #00000052;
+	background-color: #00000052;
+	border-radius: 10px;
+	text-align: center;
+}
+form input{
+	width: 70%;
+	height: 30px;
+	border-radius: 5px;
+	border:1px solid white;
+	padding-left: 10px;
+}
+.btn-success{
+	border: 1px solid #5cb85c;
+	border-radius: 10px;
+	padding: 10px 30px 10px 30px;
+	background: #41d64b;
+	color: white;
+
+}
+.input{
+	margin-left: 30px;
+	width: 30px;
+}
+.btn-primary{
+	width: 40px;
+	border: 1px solid #5cb85c;
+	border-radius: 10px;
+	background: #41d64b;
+	height: 40px;
+	color: white;
+}
